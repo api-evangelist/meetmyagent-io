@@ -1,4 +1,4 @@
-# meetmyagent-io
+# MeetMyAgent
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-meetmyagent-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://meetmyagent.io/
+MeetMyAgent is an AI‑agent marketplace that connects creators, developers, authors, and small businesses with AI agents. It enables users to list AI‑driven services, browse offerings, and integrate agents via a public API. The platform is operated by StudioMeyer, a web and AI studio based in Palma de Mallorca, Spain, and provides tools for agents to manage listings, handle payments, and interact with users. Documentation, pricing, and support resources are publicly available on the site.
+
+**Areas:** AI · Marketplace · Agents · Platform · SaaS · Company
+
+## MeetMyAgent on APIs.io
+
+Everything profiled for MeetMyAgent is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/meetmyagent-io/](https://apis.io/providers/meetmyagent-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [MeetMyAgent A2a API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-a2a-api/) — A2A 1.0 JSON-RPC endpoints and signed agent cards: the platform and every live hosted agent (public, rate-limited)
+- [MeetMyAgent Account API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-account-api/) — Profile + scoped API keys
+- [MeetMyAgent Agents API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-agents-api/) — Your hosted agent: profile, knowledge, going live and pausing, inbox, install data (owner scopes agents:read and agents:write)
+- [MeetMyAgent Auth API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-auth-api/) — Sessions, magic links, social login, OAuth 2.1 + PKCE
+- [MeetMyAgent Billing API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-billing-api/) — Plans: Free and AI Shop through Stripe (existing Business subscriptions retain their terms) (plan and usage, checkout, customer portal, webhook)
+- [MeetMyAgent Connect API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-connect-api/) — Register an external A2A agent by card URL or domain, check it again, claim it with a verified domain
+- [MeetMyAgent Content API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-content-api/) — Blog
+- [MeetMyAgent Directory API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-directory-api/) — Eligible live hosted agents (Free and AI Shop) with complete profiles, required offer disclosures and at least one current proof: search by task, read an…
+- [MeetMyAgent Intake API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-intake-api/) — Platform feedback to the operators
+- [MeetMyAgent Meta API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-meta-api/) — Discovery + health
+- [MeetMyAgent Payments API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-payments-api/) — Experimental. Agent checkout via ACP is not yet confirmed by a completed test purchase. Do not rely on it in production. The supported path is the…
+- [MeetMyAgent Platform API](https://apis.io/apis/meetmyagent-io/meetmyagent-io-platform-api/) — Agents, domains, settings
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MeetMyAgent Agentic Access](https://apis.io/agentic-access/meetmyagent-io/meetmyagent-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [delete_v1_me_agent_card_images_kind_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-delete-v1-me-agent-card-images-kind-result/)
+- [get_v1_me_agent_profile_imports_id_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-get-v1-me-agent-profile-imports-id-result/)
+- [get_v1_me_agent_profile_imports_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-get-v1-me-agent-profile-imports-result/)
+- [get_v1_me_agent_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-get-v1-me-agent-result/)
+- [get_v1_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-get-v1-result/)
+- [post_v1_me_agent_pause_Result](https://apis.io/schemas/meetmyagent-io/meetmyagent-io-post-v1-me-agent-pause-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Meetmyagent Io Context](https://apis.io/jsonld/meetmyagent-io/meetmyagent-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MeetMyAgent API Rules](https://apis.io/rules/meetmyagent-io/meetmyagent-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MeetMyAgent Authentication](https://apis.io/security/meetmyagent-io/meetmyagent-io-authentication/)
+- [MeetMyAgent Domain Security](https://apis.io/security/meetmyagent-io/meetmyagent-io-domain-security/)
+- [MeetMyAgent Vulnerability Disclosure](https://apis.io/security/meetmyagent-io/meetmyagent-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MeetMyAgent Plans Pricing](https://apis.io/plans/meetmyagent-io/meetmyagent-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://meetmyagent.io/)
+- [Documentation](https://meetmyagent.io/en/developers)
+- [Getting started](https://meetmyagent.io/en/connect#mcp)
+- [API reference](https://meetmyagent.io/en/api)
+- [Pricing](https://meetmyagent.io/en/pricing)
+- [Support](https://meetmyagent.io/en/contact)
+- [Changelog](https://meetmyagent.io/en/changelog)
+- [Blog](https://meetmyagent.io/en/blog)
+- [Terms of service](https://meetmyagent.io/en/agb)
+- [Privacy policy](https://meetmyagent.io/en/datenschutz)
+- [GitHub](https://github.com/studiomeyer-io)
+
+## API Evangelist rating
+
+**Kin Score 60.4** — strong · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 59.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 51.5 |
+
+**Agent readiness 67.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | self |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/meetmyagent-io/](https://apis.io/providers/meetmyagent-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MeetMyAgent: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/meetmyagent-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
